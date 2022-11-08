@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5cc640162aa95414b9a8300f9a985003
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Mybag: {instanceID: 0}
+  - panalGrid: {instanceID: 0}
+  - slotprfab: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

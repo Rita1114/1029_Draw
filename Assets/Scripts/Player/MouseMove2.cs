@@ -10,6 +10,7 @@ private Animator anim;
 public bool HasMove;
 int lastDirection;
 public GameObject player;
+public Vector2 _direction;
  private string[] idleDirections ={"idle-leftup","idle-leftdown","idle-rightdown","idle-rightup"};
  private string[] WalkDirections ={"walk-leftup","walk-leftdown","walk-rightdown","walk-rightup"};
 
@@ -22,7 +23,7 @@ void Awake()
 void Update()
 {
   string[] directionArray = null;
-  Vector2 _direction;
+  
   transform.position =Vector3.MoveTowards(transform.position,targetPoint, speed*Time.deltaTime);
   //Debug.Log("動");
   // 轉換座標
@@ -35,14 +36,15 @@ void Update()
     {
       Debug.Log("走");
       HasMove=true;
-      directionArray =WalkDirections;
-      lastDirection =DirectionToIndex(_direction);
+      directionArray=WalkDirections;
+      
     }
-    else
+    else 
     { 
       Debug.Log("not walk");
-      HasMove=false;
+      anim.SetBool("can idle",true);
       directionArray =idleDirections;
+      
       
     }
     anim.Play(directionArray[lastDirection]);
@@ -50,9 +52,24 @@ void Update()
   }
   
 }
-private int DirectionToIndex(Vector2 _direction)
+/*public void SetDirection(Vector2 _direction)
     {
-        Vector2 noDir =_direction.normalized;
+       string[] directionArray = null;
+       if(_direction.magnitude<0.01)
+       {
+           directionArray =idleDirections;
+       }
+       else
+       {
+           directionArray=WalkDirections;
+           lastDirection =DirectionToIndex(_direction);
+       }
+       anim.Play(directionArray[lastDirection]);
+    }*/
+
+private int MoveDirction(Vector2 _direction)
+{
+    Vector2 noDir =_direction.normalized;
         float step =360/4;
         float offset =step/4 ;  
 
@@ -64,11 +81,7 @@ private int DirectionToIndex(Vector2 _direction)
             angle += 360;
         }
         float stepCount =angle / step;
-        return Mathf.FloorToInt(stepCount);
-    }
-private void MoveDirction()
-{
-    
+        
   if(targetPoint.x>transform.position.x)
     {
      
@@ -81,5 +94,6 @@ private void MoveDirction()
     {
         
     }
+    return Mathf.FloorToInt(stepCount);
 }
 }

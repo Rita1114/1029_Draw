@@ -18,12 +18,17 @@ public class MoveAnimation : MonoBehaviour
 
         float result1 =Vector2.SignedAngle(Vector2.up,Vector2.right);
         Debug.Log("R1"+result1);
+        float result2 =Vector2.SignedAngle(Vector2.up,Vector2.left);
+        Debug.Log("R2"+result2);
+         float result3 =Vector2.SignedAngle(Vector2.up,Vector2.down);
+        Debug.Log("R3"+result3);
+       
     }
 
     public void SetDirection(Vector2 _direction)
     {
        string[] directionArray = null;
-       if(_direction.magnitude<0.01)
+       if(anim.GetInteger("Status")==0)
        {
            directionArray =idleDirections;
        }
@@ -33,6 +38,7 @@ public class MoveAnimation : MonoBehaviour
            lastDirection =DirectionToIndex(_direction);
        }
        anim.Play(directionArray[lastDirection]);
+        Debug.Log(_direction.magnitude);
     }
 
     private int DirectionToIndex(Vector2 _direction)

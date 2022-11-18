@@ -29,4 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/\u7B2C\u4E00\u7AE0/C1-P.unity"
     guid: 939c0904b46f09546859591c33aa7b17
+  - enabled: 1
+    path: Assets/Scenes/text.unity
+    guid: 8b18463fdb8f43f4fae93c9946deff08
+  - enabled: 1
+    path: Assets/Scenes/text2.unity
+    guid: d89fdfaf9a868304db576aa680a8979c
   m_configObjects: {}

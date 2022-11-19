@@ -21,7 +21,7 @@ public class changescene : MonoBehaviour
     }
     public void Changescene()
     {
-        SceneManager.LoadScene("text2");
+        SceneManager.LoadScene("text1");
         CheckInit.startPointNumber= pointNumber;
     } 
      void OnTriggerEnter2D(Collider2D other)

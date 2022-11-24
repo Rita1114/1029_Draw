@@ -738,3 +738,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointNumber: 1
+  nextSceneName: text1

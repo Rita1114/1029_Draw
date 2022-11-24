@@ -21,6 +21,8 @@ public class MouseMove : MonoBehaviour
     public C1TimelineMgr c1TimelineMgr;
 
     public AudioMgr audioMgr;
+
+    public Exitscene exitscene;
     
     
 
@@ -159,9 +161,19 @@ public class MouseMove : MonoBehaviour
         }
     }*/
  }
- 
-   
-  
-}
+  void OnTriggerEnter2D(Collider2D other)
+    {
+     /*if(other.gameObject.CompareTag("DoorG")
+     &&other.GetType().ToString()=="UnityEngine.CapsuleCollider2D")
+     {
+     } */
+
+    if(other.GetComponent<changescene>()!=null)
+    {
+      other.GetComponent<changescene>().Load();
+    }
+    }
+
+}   
 
 

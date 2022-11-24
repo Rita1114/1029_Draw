@@ -9,14 +9,14 @@ public class InitPlayer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if(CheckInit.DebugSceneName=="")
+        if(C1lMgr.DebugSceneName=="")
         {
          SceneManager.LoadScene(startScene);
         }
         else
         {
-         SceneManager.LoadScene(CheckInit.DebugSceneName);
-         CheckInit.DebugSceneName="";
+         SceneManager.LoadScene(C1lMgr.DebugSceneName);
+         C1lMgr.DebugSceneName="";
         }
      
     }

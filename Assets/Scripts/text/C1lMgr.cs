@@ -3,18 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class CheckInit : MonoBehaviour
+public class C1lMgr : MonoBehaviour
 {
-    public static string DebugSceneName;
+   public static string DebugSceneName;
     public static int startPointNumber;
     public GameObject playerObject;
     // Start is called before the first frame update
     void Start()
     {
-        playerObject =GameObject.Find("player");
+        playerObject =GameObject.Find("Player");
         if(!playerObject)
         {
-            SceneManager.LoadScene("text1");
+            SceneManager.LoadScene("");
             DebugSceneName=SceneManager.GetActiveScene().name;
         }
         if(startPointNumber !=0)
@@ -29,9 +29,7 @@ public class CheckInit : MonoBehaviour
 
         
     }
-
-    // Update is called once per frame
-    void Update()
+     void Update()
     {
         
     }

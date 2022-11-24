@@ -3,11 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class changescene : MonoBehaviour
+public class Exitscene : MonoBehaviour
 {
     public int pointNumber;
-    public string nextSceneName;
-
     public static int startPointNumber;
     public static string abc;
     // Start is called before the first frame update
@@ -21,40 +19,27 @@ public class changescene : MonoBehaviour
     {
         
     }
-    public void Load(){
-          SceneManager.LoadScene(nextSceneName);
-          C1lMgr.startPointNumber= pointNumber;
-    }
-
     public void Changescene()
     {
         SceneManager.LoadScene("text2");
         CheckInit.startPointNumber= pointNumber;
     } 
-    public void EnterG()
+    public void ExitG()
     {
-        SceneManager.LoadScene("C1-G");
+        SceneManager.LoadScene("C1-L");
         CheckInit.startPointNumber= pointNumber;
+        GameMgr.IsFirstTimeLinePlayed = true;
     } 
-    public void EnterC()
+    public void ExitC()
     {
         SceneManager.LoadScene("C1-C");
         CheckInit.startPointNumber= pointNumber;
     } 
-    public void EnterP()
+    public void ExitP()
     {
         SceneManager.LoadScene("C1-P");
         CheckInit.startPointNumber= pointNumber;
     } 
-    void OnTriggerEnter2D(Collider2D other)
-    {
-     if(other.gameObject.CompareTag("Player")
-     &&other.GetType().ToString()=="UnityEngine.CapsuleCollider2D")
-     {
-        Load();
-        GameMgr.IsFirstTimeLinePlayed = true;
-     }
-        
-    }
+    
    
 }

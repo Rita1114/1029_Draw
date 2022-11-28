@@ -46,12 +46,12 @@ public class C2TimelineMgr : MonoBehaviour
           case Status AnimOn:
           if(flowchart.GetBooleanVariable("start")==false)
           {
-           player.GetComponent<MouseMove>().enabled=false;
+           player.GetComponent<playerCtr1>().enabled=false;
           }
           else
           if(flowchart.GetBooleanVariable("start")==true)
           {
-           player.GetComponent<MouseMove>().enabled=true;
+           player.GetComponent<playerCtr1>().enabled=true;
           }
           break;
         }
@@ -66,11 +66,11 @@ public class C2TimelineMgr : MonoBehaviour
            
           if(flowchart.GetBooleanVariable("")==true)
           {
-           player.GetComponent<MouseMove>().enabled=false;
+           player.GetComponent<playerCtr1>().enabled=false;
           }
           else
           {
-            player.GetComponent<MouseMove>().enabled=true;
+            player.GetComponent<playerCtr1>().enabled=true;
           }
           if(flowchart.GetBooleanVariable("")==true)
           {

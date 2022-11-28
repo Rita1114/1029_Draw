@@ -74,12 +74,12 @@ public class C1TimelineMgr : MonoBehaviour
           case Status AnimOn:
           if(flowchart.GetBooleanVariable("canwalk")==false)
           {
-           player.GetComponent<MouseMove>().enabled=false;
+           player.GetComponent<playerCtr1>().enabled=false;
           }
           else
           if(flowchart.GetBooleanVariable("canwalk")==true)
           {
-           player.GetComponent<MouseMove>().enabled=true;
+           player.GetComponent<playerCtr1>().enabled=true;
            拿到錢=true;
           }
           break;
@@ -93,7 +93,7 @@ public class C1TimelineMgr : MonoBehaviour
       
           if(flowchart.GetBooleanVariable("填色遊戲")==true&& 拿到筆==true)
           {
-           player.GetComponent<MouseMove>().enabled=false;
+           player.GetComponent<playerCtr1>().enabled=false;
            mouseClickPaper.GetComponent<MouseClickPaper>().isopen=true;
            drawgame.SetActive(true);
            drawgameMgr.GetComponent<FillcolorGame>().enabled=true;

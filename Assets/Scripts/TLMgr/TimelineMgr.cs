@@ -66,12 +66,12 @@ public class TimelineMgr : MonoBehaviour
           case Status AnimOn:
           if(flowchart.GetBooleanVariable("start")==false)
           {
-           player.GetComponent<MouseMove>().enabled=false;
+           player.GetComponent<playerCtr1>().enabled=false;
           }
           else
           if(flowchart.GetBooleanVariable("start")==true)
           {
-           player.GetComponent<MouseMove>().enabled=true;
+           player.GetComponent<playerCtr1>().enabled=true;
           }
           break;
         }
@@ -86,12 +86,12 @@ public class TimelineMgr : MonoBehaviour
            
           if(flowchart.GetBooleanVariable("跟小女孩說話")==true)
           {
-           player.GetComponent<MouseMove>().enabled=false;
+           player.GetComponent<playerCtr1>().enabled=false;
            Bubble.SetActive(false);
           }
           else
           {
-            player.GetComponent<MouseMove>().enabled=true;
+            player.GetComponent<playerCtr1>().enabled=true;
           }
           if(flowchart.GetBooleanVariable("靠近洞")==true)
           {

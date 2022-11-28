@@ -8,7 +8,6 @@ using UnityEngine.UI;
 
 public class playerCtr1 : MonoBehaviour
 {
-    public float Speed;
     public GameObject Bag;
     bool Isopen;
 
@@ -29,8 +28,6 @@ public class playerCtr1 : MonoBehaviour
     private Vector2 MousePositionLast;
     private Vector3 MouseWorldMoveDirection;
 
-    public float h, v;
-
 
     // Start is called before the first frame update
     void Start()
@@ -49,7 +46,7 @@ public class playerCtr1 : MonoBehaviour
     {
       
         transform.position = Vector3.MoveTowards(transform.position, targetPoint, moveSpeed * Time.deltaTime);
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(1))
         {
             targetPoint = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             targetPoint.z = 0;

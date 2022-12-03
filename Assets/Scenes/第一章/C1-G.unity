@@ -231,7 +231,7 @@ GameObject:
   - component: {fileID: 26825822}
   - component: {fileID: 26825823}
   m_Layer: 0
-  m_Name: 2
+  m_Name: 1
   m_TagString: Portal
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -292,6 +292,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointNumber: 1
   nextSceneName: C1-L
+  ChangeAni: {fileID: 0}
+  image: {fileID: 0}
 --- !u!1001 &40682046
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -798,6 +800,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerObject: {fileID: 176565880}
+  flowchart: {fileID: 785767648}
 --- !u!4 &540350051
 Transform:
   m_ObjectHideFlags: 0
@@ -2801,6 +2804,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1362934214}
   - component: {fileID: 1362934213}
+  - component: {fileID: 1362934215}
   m_Layer: 0
   m_Name: C1TimelineMgr
   m_TagString: Untagged
@@ -2820,7 +2824,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e83f3624dfb71f459537433f4168d83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AnimationController: {fileID: 0}
+  AnimationController: {fileID: 1362934215}
   timelines: []
   timelinename: []
   flowchart: {fileID: 0}
@@ -2845,6 +2849,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!320 &1362934215
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362934212}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 0}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings: []
+  m_ExposedReferences:
+    m_References: []
 --- !u!1 &1490918384
 GameObject:
   m_ObjectHideFlags: 0

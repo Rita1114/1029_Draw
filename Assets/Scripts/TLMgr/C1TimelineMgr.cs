@@ -34,6 +34,7 @@ public class C1TimelineMgr : MonoBehaviour
         {
            flowchart.SetBooleanVariable("Aniplay",true);
            flowchart.SetBooleanVariable("canwalk",true);
+           Debug.Log("123");
         }
         if(GameMgr.IsGetpan)
         {

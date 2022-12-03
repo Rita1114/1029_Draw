@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Playables;
 
 public class changescene : MonoBehaviour
 {
@@ -10,6 +11,10 @@ public class changescene : MonoBehaviour
 
     public static int startPointNumber;
     public static string abc;
+    public PlayableDirector ChangeAni;
+    public GameObject image;
+
+    public static bool IsFirstTimeLinePlayed;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,31 +26,16 @@ public class changescene : MonoBehaviour
     {
         
     }
-    public void Load(){
+    public void Load()
+    {
           SceneManager.LoadScene(nextSceneName);
           C1lMgr.startPointNumber= pointNumber;
-    }
+          image.SetActive(true);
+          ChangeAni.Play();
+          
 
-    public void Changescene()
-    {
-        SceneManager.LoadScene("text2");
-        CheckInit.startPointNumber= pointNumber;
-    } 
-    public void EnterG()
-    {
-        SceneManager.LoadScene("C1-G");
-        CheckInit.startPointNumber= pointNumber;
-    } 
-    public void EnterC()
-    {
-        SceneManager.LoadScene("C1-C");
-        CheckInit.startPointNumber= pointNumber;
-    } 
-    public void EnterP()
-    {
-        SceneManager.LoadScene("C1-P");
-        CheckInit.startPointNumber= pointNumber;
-    } 
+    }
+    
     void OnTriggerEnter2D(Collider2D other)
     {
      if(other.gameObject.CompareTag("Player")
@@ -56,5 +46,5 @@ public class changescene : MonoBehaviour
      }
         
     }
-   
+
 }

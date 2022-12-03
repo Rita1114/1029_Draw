@@ -13,6 +13,7 @@ public static class GameMgr
 
     public static bool IsFirstTimeLinePlayed= false;
     public static bool IsGetpan =false;
+    public static bool isChangeScene;
     
     public static GameObject player,drawgame;
     public static Flowchart flowchart;

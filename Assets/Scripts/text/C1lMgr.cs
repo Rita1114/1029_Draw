@@ -2,12 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using UnityEngine.Playables;
+using Fungus;
+
 
 public class C1lMgr : MonoBehaviour
 {
    public static string DebugSceneName;
     public static int startPointNumber;
     public GameObject playerObject;
+
+    
+    public Flowchart flowchart;
+
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +25,7 @@ public class C1lMgr : MonoBehaviour
         {
             SceneManager.LoadScene("");
             DebugSceneName=SceneManager.GetActiveScene().name;
+            
         }
         if(startPointNumber !=0)
         {
@@ -26,6 +36,7 @@ public class C1lMgr : MonoBehaviour
            }
            startPointNumber=0;
         }
+       
 
         
     }

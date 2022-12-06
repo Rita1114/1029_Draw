@@ -3,17 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2f8e1ecb-357e-4cfc-acd5-ba58c89ab503" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Demo_1101/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Demo_1101/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Timeline/第一章/收集完A23.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Timeline/第一章/收集完A23.playable" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/第一章/C1-G.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/第一章/C1-G.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/第一章/C1-L.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/第一章/C1-L.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/C1/Exit.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/C1/Exit.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameMgr.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameMgr.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TLMgr/C1TimelineMgr.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TLMgr/C1TimelineMgr.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/text/C1lMgr.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/text/C1lMgr.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/text/changescene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/text/changescene.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Timeline/靠近洞.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Timeline/靠近洞.playable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/S2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/S2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/playerCtr1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/playerCtr1.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +91,9 @@
       <workItem from="1669625438214" duration="4254000" />
       <workItem from="1669907306192" duration="2145000" />
       <workItem from="1669909523577" duration="761000" />
-      <workItem from="1670057026178" duration="7512000" />
+      <workItem from="1670057026178" duration="8111000" />
+      <workItem from="1670306587887" duration="2257000" />
+      <workItem from="1670308908488" duration="761000" />
     </task>
     <servers />
   </component>

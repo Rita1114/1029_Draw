@@ -25,8 +25,7 @@ public class playerCtr1 : MonoBehaviour
     public Animator anim;
     int canWalk;
     public Vector3 targetPoint;
-    private Vector2 MousePositionLast;
-    private Vector3 MouseWorldMoveDirection;
+   
 
 
     // Start is called before the first frame update
@@ -52,7 +51,7 @@ public class playerCtr1 : MonoBehaviour
             targetPoint.z = 0;
         }
 
-        rb.velocity = new Vector2(targetPoint.x, targetPoint.y);
+        //rb.velocity = new Vector2(targetPoint.x, targetPoint.y);
 
         Vector2 direction = new Vector2(targetPoint.x, targetPoint.y);
         Vector2 Walkdirection = new Vector2(transform.position.x-targetPoint.x, transform.position.y-targetPoint.y).Abs();

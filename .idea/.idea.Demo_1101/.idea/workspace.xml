@@ -3,9 +3,140 @@
   <component name="ChangeListManager">
     <list default="true" id="2f8e1ecb-357e-4cfc-acd5-ba58c89ab503" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Demo_1101/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Demo_1101/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Timeline/靠近洞.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Timeline/靠近洞.playable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animation/girl/(name_conflict)_girl-leftdown.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animation/girl/(name_conflict)_girl-leftdown.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animation/girl/01.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animation/girl/01.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animation/girl/01.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animation/girl/01.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animation/girl/girl-idleleftdown.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animation/girl/girl-idleleftdown.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animation/girl/girl-idleleftup.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animation/girl/girl-idleleftup.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animation/girl/girl-idlerightdown.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animation/girl/girl-idlerightdown.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animation/girl/girl-idlerightup.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animation/girl/girl-idlerightup.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animation/girl/girl-leftdown.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animation/girl/girl-leftdown.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animation/girl/girl-leftup.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animation/girl/girl-leftup.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animation/girl/girl-rightdown.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animation/girl/girl-rightdown.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animation/girl/girl-rightup.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animation/girl/girl-rightup.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/立繪/小女孩/girl_angry.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Images/立繪/小女孩/girl_angry.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/立繪/小女孩/girl_angry.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Images/立繪/小女孩/girl_angry.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/立繪/小女孩/girl_happy.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Images/立繪/小女孩/girl_happy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/立繪/小女孩/girl_happy.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Images/立繪/小女孩/girl_happy.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/立繪/小女孩/girl_normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Images/立繪/小女孩/girl_normal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/立繪/小女孩/girl_normal.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Images/立繪/小女孩/girl_normal.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/立繪/小女孩/girl_sorrow.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Images/立繪/小女孩/girl_sorrow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/立繪/小女孩/girl_sorrow.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Images/立繪/小女孩/girl_sorrow.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/右上.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/右上/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/右上/01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/右上/02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/右上/02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/右上/03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/右上/03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/右上/04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/右上/04.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/右上/05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/右上/05.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/右上/06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/右上/06.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/右上/07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/右上/07.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/右上/08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/右上/08.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/左下.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/左下/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/左下/01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/左下/02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/左下/02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/左下/03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/左下/03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/左下/04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/左下/04.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/左下/05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/左下/05.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/左下/06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/左下/06.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/左下/07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/左下/07.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/左下/08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/待機/左下/08.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上 1/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上 1/01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上 1/02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上 1/02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上 1/03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上 1/03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上 1/04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上 1/04.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上 1/05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上 1/05.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上 1/06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上 1/06.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上 1/07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上 1/07.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上 1/08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上 1/08.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上/01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上/02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上/02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上/03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上/03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上/04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上/04.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上/05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上/05.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上/06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上/06.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上/07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上/07.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上/08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左上/08.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下 1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下 1/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下 1/01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下 1/02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下 1/02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下 1/03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下 1/03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下 1/04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下 1/04.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下 1/05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下 1/05.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下 1/06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下 1/06.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下 1/07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下 1/07.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下 1/08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下 1/08.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下/01.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下/02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下/02.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下/03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下/03.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下/04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下/04.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下/05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下/05.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下/06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下/06.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下/07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下/07.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下/08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Images/角色/小女孩/走路/左下/08.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Timeline/卓盈走路.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Timeline/卓盈走路.playable" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/S2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/S2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/playerCtr1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/playerCtr1.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +224,8 @@
       <workItem from="1669909523577" duration="761000" />
       <workItem from="1670057026178" duration="8111000" />
       <workItem from="1670306587887" duration="2257000" />
-      <workItem from="1670308908488" duration="761000" />
+      <workItem from="1670308908488" duration="1274000" />
+      <workItem from="1670570238242" duration="647000" />
     </task>
     <servers />
   </component>
